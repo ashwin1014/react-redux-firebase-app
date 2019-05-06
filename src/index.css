@@ -26,3 +26,11 @@ input[type=email]:not(.browser-default):focus:not([readonly]) + label,
 input[type=password]:not(.browser-default):focus:not([readonly]) + label{
   color: #ec407a !important;
 }
+
+@media only screen and (max-width: 992px) {
+  nav .brand-logo {
+    left: 20%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+ }
+}
